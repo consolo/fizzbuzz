@@ -5,3 +5,7 @@ A program that prints the numbers from 1 to 100. But for multiples of three prin
 ### Use
 
     ruby fizzbuzz.rb
+
+### Testing
+
+    ruby test.rb
