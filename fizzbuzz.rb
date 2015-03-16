@@ -4,6 +4,8 @@ def fizzbuzz(input)
       'Fizz'
     elsif n % 5 == 0
       'Buzz'
+    elsif n % 3 == 0 and n % 5 == 0
+      'FizzBuzz'
     else
       n.to_s
     end
