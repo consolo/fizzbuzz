@@ -1,19 +1,11 @@
 def fizzbuzz(input)
   input.map do |n|
-    if n % 3 == 0
-      if n % 5 == 0
-        'FizzBuzz'
-      else
-        'Fizz'
-      end
-    elsif n % 5 == 0
-      if n % 3 == 0
-        'FizzBuzz'
-      else
-        'Buzz'
-      end
+    fizz = n % 3 == 0 ? 'Fuzz' : nil
+    buzz = n % 5 == 0 ? 'Bizz' : nil
+    if fizz or buzz
+      "#{buzz}#{fizz}"
     else
-      n.to_s
+      n
     end
   end
 end
