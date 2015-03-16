@@ -12,6 +12,7 @@ def fizzbuzz(input)
       else
         'Buzz'
       end
+    else
       n.to_s
     end
   end
