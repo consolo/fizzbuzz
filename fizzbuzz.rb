@@ -13,5 +13,5 @@ def fizzbuzz(input)
 end
 
 if $0 == __FILE__
-  puts fizzbuzz(1..100)
+  #puts fizzbuzz(1..100)
 end
