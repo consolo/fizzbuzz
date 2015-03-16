@@ -1,7 +1,7 @@
 def fizzbuzz(input)
   input.map do |n|
     fizz = n % 3 == 0 ? 'Fuzz' : nil
-    buzz = n % 5 == 0 ? 'Bizz' : nil
+    buzz = n % 5 == 0 ? 'Buzz' : nil
     if fizz or buzz
       "#{fizz}#{buzz}"
     else
