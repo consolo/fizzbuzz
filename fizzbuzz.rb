@@ -3,7 +3,7 @@ def fizzbuzz(input)
     fizz = n % 3 == 0 ? 'Fuzz' : nil
     buzz = n % 5 == 0 ? 'Bizz' : nil
     if fizz or buzz
-      "#{buzz}#{fizz}"
+      "#{fizz}#{buzz}"
     else
       n
     end
