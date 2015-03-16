@@ -5,7 +5,7 @@ def fizzbuzz(input)
     if fizz or buzz
       "#{fizz}#{buzz}"
     else
-      n
+      n.to_s
     end
   end
 end
