@@ -1,6 +1,10 @@
 def fizzbuzz(input)
   input.map do |n|
-    n.to_s
+    if n % 3 == 0
+      'Fizz'
+    else
+      n.to_s
+    end
   end
 end
 
