@@ -7,11 +7,11 @@ class TestFizzBuzz < Minitest::Test
   end
 
   def test_5_is_buzz
-    assert_equal %w(4 Buzz), fizzbuzz(4..5)
+    assert_equal %w(1 2 Fizz 4 Buzz), fizzbuzz(1..5)
   end
 
   def test_15_is_fizzbuzz
-    assert_equal %w(14 FizzBuzz 16), fizzbuzz(14..16)
+    assert_equal %w(1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16), fizzbuzz(1..16)
   end
 
   def test_1_through_100
