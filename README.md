@@ -9,3 +9,15 @@ A program that prints the numbers from 1 to 100. But for multiples of three prin
 ### Testing
 
     ruby test.rb
+
+### Ascii cat!
+
+        /\__/\
+       /`    '\
+     === 0  0 ===
+       \  --  /
+      /        \
+     /          \
+    |            |
+     \  ||  ||  /
+      \_oo__oo_/#######o
