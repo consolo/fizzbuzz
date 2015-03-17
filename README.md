@@ -4,6 +4,8 @@ A program that prints the numbers from 1 to 100. But for multiples of three prin
 
 Jeff's commit is the best
 
+Nofif test
+
 ### Use
 
     ruby fizzbuzz.rb
